@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Sitio web real</Canvas></title>
+  </head>
+  <body class="bg-black">
+    <!--Inicio del navegador inicial (Navbar)-->
+    <div class="bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="imagenes/portatil.png" alt="" width="30" height="24" class="d-inline-block align-text-top">Computadoras y mas</Canvas></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Más productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Hardware</a></li>
+                  <li><a class="dropdown-item" href="#">Software</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Dispositivos</a></li>
+                </ul>
+              </li>
+            </ul>
+            <span class="navbar-text text-white"href="#"><img src="imagenes/telefono1.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                +52 55 5824 5864
+            </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--Final del menu de navegacion (Navbar)-->
+
+    <!--Este es el inicio del carrusel (Slider)-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/img1.jpg" class="d-block w-100" alt="img 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-5">Hardware</h5>
+              <p>Parte fisica de una computadora y accesorios.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/img2.jpg" class="d-block w-100" alt="img 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-5">Software</h5>
+              <p>Parte interna de una computadora como los programas etc.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/img3.jpg" class="d-block w-100" alt="img 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-5">Dispositivos</h5>
+              <p>Computadoras, tablets, laptop, celulares.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Este es el final del slider-->
+
+      <!--Este es el inicio de las tarjetas-->
+      <section class="container my-5">
+        <h2 class="display-4 text-center text-white">Computadoras</h2>
+        <p class="lead text-center my-4 text-white">Una computadora es un dispositivo informático que es capaz de recibir, almacenar y procesar información de una forma útil. Una computadora está programada para realizar operaciones lógicas o aritméticas de forma automática. Aqui te enseñamos todo lo que tienes que saber de las computadoras y demas dispositivos.</P>
+
+        <div class="row">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+              <!--1er tarjeta-->
+              <div class="col">
+                <div class="card border-primary bg-black h-100">
+                  <img src="imagenes/hardware.jpg" class="card-img-top" alt="hard">
+                  <div class="card-body">
+                    <h5 class="card-title text-white">Hardware</h5>
+                    <p class="card-text text-white">Equipo o soporte físico​ en informática se refiere a las partes físicas, tangibles, de un sistema informático, sus componentes eléctricos, electrónicos, electromecánicos.</p>
+                  </div>
+                  <div class="card-footer ">
+                    <button class="btn btn-primary text-white">Más informacion</button>
+                  </div>
+                </div>
+              </div>
+
+              <!--Segunda tarjeta-->
+              <div class="col">
+                <div class="card border-primary bg-black h-100">
+                  <img src="imagenes/software.jpg" class="card-img-top" alt="soft">
+                  <div class="card-body">
+                    <h5 class="card-title text-white">Software</h5>
+                    <p class="card-text text-white"> Logicial o soporte lógico al sistema formal de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hace posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados hardware.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button class="btn btn-primary text-white">Más informacion</button>
+                  </div>
+                </div>
+              </div>
+
+              <!--Tercer tarjeta-->
+              <div class="col">
+                <div class="card border-primary bg-black h-100">
+                  <img src="imagenes/deposivos1.jpg" class="card-img-top" alt="disp">
+                  <div class="card-body">
+                    <h5 class="card-title text-white">Dispositivos</h5>
+                    <p class="card-text text-white">Componente que permite leer o escribir información digital en un medio o soporte. El dispositivo, por lo tanto, guarda archivos informáticos lógica y físicamente.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button class="btn btn-primary text-white">Más informacion</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!--Este es el final de las tarjetas-->
+
+      <!--Este es el final del JUMBOTROM-->
+      <div class="jumbotron bg-primary text-white">
+        <div class="container text-white">
+          <h1 class="display-4 text-center">Lo mejor para tu computadora!</h1>
+          <p class="lead">Aqui aprenderas todo lo que tiene una computadora dentro y fuera con los mejores accesorios para que tu puedas eligir lo que mas te comvenga.</p>
+          <hr class="my-4">
+          <p>“Las computadoras no resuelven los problemas, pero capacitan a las personas para hacerlo.”</p>
+          <a class="btn btn-dark border border-dark mb-2 btn-lg" href="#" role="button">Màs Informacìon</a>
+        </div>
+      </div>
+      <!-- Final del JUMBOTROM -->
+
+      <!-- Inicio de màs texto -->
+      <section class="container my-4">
+        <h2 class="display-4 text-center text-white"> <b>Sistemas Computacionales</b></h2>
+        <p class="lead text-center text-white text-dark-my-4"><small>Es <b>un sistema</b> que permite almacenar y procesar información; es el conjunto de partes interrelacionadas: hardware, software y personal informático. <br> El hardware incluye cualquier tipo de dispositivo electrónico, que consisten en procesadores, memoria, sistemas de almacenamiento externo, etc.<br> El software incluye al sistema operativo, firmware y aplicaciones, siendo especialmente importante los sistemas de gestión de bases de datos. Por último, el componente humano incluye al personal técnico que apoya y mantienen el sistema y a los usuarios que lo utilizan.</small></p>
+        
+        <!-- Inicio de acordeon -->
+        <div class="row">
+          <div class="col-md-6 my-4">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <b>Importancia</b>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body bg-black text-white">
+                    <strong>El mayor fruto de la informática en nuestra sociedad es mantener a las personas informadas y actualizadas, a través de una mejor comunicación. por ello que <code>hoy existe la informática en casi todo lo que hacemos</code> y en casi todos los productos y servicios que consumimos o utilizamos. Los sistemas informáticos ocupan en el mundo contemporáneo <code>un lugar clave para la organización humana</code> de sus procesos productivos y de otras naturalezas. Es una herramienta poderosa para el intercambio de información y la construcción de  <code>redes informáticas</code> que superan la dificultad de las distancias.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <b>Características</b>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body bg-black text-white">
+                    <strong>Puede hablarse de sistemas de uso específico, que se ocupan de tareas puntuales y muy acotadas; o sistemas de uso general,</strong> que ofrecen un manejo amplio de la información. Puede hablarse de sistemas de procesamiento básico de la información, de apoyo en la <code>toma de decisiones,</code> de gestión del conocimiento, sistemas basados en técnicas Web o basados en inteligencia artificial.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <b>Libros</b>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body bg-black text-white">
+                    <strong>La finalidad de todo</strong> SI es <code>manejar de manera óptima la información.</code> Permite guardarla, recuperarla, cambiarla de soporte (por ejemplo, imprimirla) o compartirla. Además, permite numerosos desempeños, que van desde facilitar el trabajo a los seres humanos, <code>ofrecerles entretenimiento o información,</code> comunicarlos con otros humanos a distancia, etc.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Final del acordeon -->
+
+          <!-- Inicio de listas de grupo -->
+          <div class="col md-6 my-4">
+            <img src="imagenes/Ciencias-de-la-computacion.jpg" alt="Compu" class="img-fluid">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-info" aria-current="true">La tecnología por sí sola no basta. También tenemos que poner el corazón</li>
+              <li class="list-group-item list-group-item-info">La computación es el principio, el ordenador es la herramienta</li>
+              <li class="list-group-item list-group-item-info">Una computadora puede ser llamada inteligente si logra engañar a una persona haciéndole creer que es un humano</li>
+              <li class="list-group-item list-group-item-info">El ordenador nació  para resolver problemas que antes no existian</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Final de listas de grupo -->
+      </section>
+      <!-- Final de màs texto -->
+
+      <!-- Inicio de Footer -->
+      <footer class="bg-primary text-white text-center mt-5 py-2">
+        <div class="container">
+          <p> <b>Visita nuestras páginas:</b> <br> <br>
+          <a href="https://es-la.facebook.com/"><img src="imagenes/Face.png" alt="Facebook" width="30px"></a>
+          <a href="https://www.instagram.com/"><img src="imagenes/instagram.png" alt="Instagram" width="30px"></a>
+          <a href="https://twitter.com/?lang=es"><img src="imagenes/Twitter.png" alt="Twitter" width="30px"></a>
+          </p>
+          <p class="lead"> <small>Todos los derechos reservados. <br> Creación y Edición: Jessica Iturbe</small> </p>
+        </div>
+      </footer>
+
+
+
+
+
+
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
